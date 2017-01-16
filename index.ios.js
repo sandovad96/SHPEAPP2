@@ -13,9 +13,9 @@ export default class SHPEAPP extends Component {
   render() {
     return (
       <View style={styles.container}>
-      <Image source = {require("./Background.png")} style = {{flex:1}}  resizeMode={Image.resizeMode.contain} >
+      <Image source = {require("./Images/Background.png")} style = {{flex:1}}  resizeMode={Image.resizeMode.contain} >
         <View style = {styles.container} resizeMode = {Image.resizeMode.contain}>
-         <Image source={require("./shpepic.png")} style={{width:220, height:110}} />
+         <Image source={require("./Images/shpepic.png")} style={{width:220, height:110}} />
           <Text style={styles.welcome}>
             Society of Hispanic Professional Engineers
           </Text>
@@ -51,7 +51,7 @@ class LogIn extends Component {
                   <Button style={{backgroundColor: '#eeb211'}} onPress={() =>this.logIn()} 
                   rounded >                Login                </Button>
           </View>
-          <Image source = {require("./OR.png")} resizeMode = {Image.resizeMode.contain} style={{width:350, height:40, marginBottom:10}}/>
+          <Image source = {require("./Images/OR.png")} resizeMode = {Image.resizeMode.contain} style={{width:350, height:40, marginBottom:10}}/>
         <FacebookLoginButton/>
       </View> 
     );
