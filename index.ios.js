@@ -49,7 +49,7 @@ class LogIn extends Component {
         </View>
           <View style={{height:50}}>
                   <Button style={{backgroundColor: '#eeb211'}} onPress={() =>this.logIn()} 
-                  rounded >              Login               </Button>
+                  rounded >                Login                </Button>
           </View>
           <Image source = {require("./OR.png")} resizeMode = {Image.resizeMode.contain} style={{width:350, height:40, marginBottom:10}}/>
         <FacebookLoginButton/>
